@@ -16,7 +16,11 @@ Start the node to input required field like Wallet Private Key, Choose Models, a
 dkn-compute-launcher start
 ```
 
+With a VPS of 8 cores and 20 GB of RAM, I can run the following Ollama models, as well as run all API-level models from Gemini, OpenAI, and OpenRouter.<br><br>
+![Screenshot 2025-04-04 at 20 31 51](https://github.com/user-attachments/assets/0af5ef00-a0bf-446e-8411-82f498b67c87)
+
 After all done and node start testing the models, press CTRL+C to cancel it
+
 
 Then run this to start the Node as service
 ```
