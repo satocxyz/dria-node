@@ -6,6 +6,15 @@ echo " GitHub: github.com/satocxyz "
 echo " X: x.com/satocxyz "
 echo "==================================="
 
+echo "[+] Checking if Ollama is installed..."
+if ! command -v ollama &> /dev/null; then
+    echo "[!] Ollama not found. Installing Ollama..."
+    curl -fsSL https://ollama.com/install.sh | sh
+    echo "[✔] Ollama installed."
+else
+    echo "[✔] Ollama is already installed."
+fi
+
 echo "[+] Installing DKN Compute Launcher..."
 curl -fsSL https://dria.co/launcher | bash
 echo "[✔] Installation completed."
