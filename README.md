@@ -33,6 +33,11 @@ You can monitor your node with this command
 journalctl -u dkn-compute-launcher.service -f
 ```
 
+You can restart your node with this command
+```
+systemctl restart dkn-compute-launcher
+```
+
 DONE
 <br>
 ==========================================<br>
